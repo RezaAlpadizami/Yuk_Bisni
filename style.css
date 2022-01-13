@@ -1,0 +1,44 @@
+.container {
+  margin: 25vh auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  background-color: honeydew;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 10px;
+}
+
+.content-photo {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.content-photo img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.content-head-title {
+  text-align: center;
+}
+
+.title-headline {
+  color: rgb(206, 206, 206);
+}
+
+.title-user {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.icons {
+  font-size: 40px;
+}
+
+.icons i {
+  margin: 20px;
+}
